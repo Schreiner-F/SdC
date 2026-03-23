@@ -1,0 +1,103 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+
+\begin{document}
+	
+	% --- INICIO DE LA CARÁTULA ---
+	\begin{titlepage}
+		\centering
+		{\bfseries\LARGE Universidad Nacional de Córdoba \par}
+		{\scshape\Large Facultad de Ciencias Exactas, Físicas y Naturales \par}
+		\vspace{2cm}
+		%{\includegraphics[width=0.3\textwidth]{logo_unc}\par} % Si tenés el logo, si no comentá esta línea
+		\vspace{1.5cm}
+		{\bfseries\huge Sistemas de Computación \par}
+		\vspace{1cm}
+		{\Large Trabajo Practico 1\par}
+		\vspace{2cm}
+		
+		{\Large \textbf{Integrantes:}} \par
+		\vspace{0.5cm}
+		{\large Federico Schreiner \par}
+		{\large Integrante 2 \par}
+		{\large Integrante 3 \par}
+		
+		\vfill
+		{\Large Año 2026 \par}
+	\end{titlepage}
+	% --- FIN DE LA CARÁTULA ---
+	
+	\newpage
+	\tableofcontents % Esto genera el índice automáticamente
+	\newpage
+	
+	\section{Introducción}
+	% ... resto de tu código ...
+	\section{Introducción}
+	El presente informe detalla el análisis de benchmarks de terceros para la toma de decisiones de hardware y la medición de performance de código propio mediante herramientas de profiling.
+	
+	\section{Parte 1: Benchmarks y Selección de Hardware}
+	
+	\subsection{Lista de Benchmarks Útiles}
+	% Acá debés listar los benchmarks que investiguen (ej: Geekbench, Cinebench, Phoronix Test Suite)
+	\begin{itemize}
+		\item \textbf{Benchmark 1:} Descripción y utilidad para tareas de ingeniería.
+		\item \textbf{Benchmark 2:} Aplicación en compilación y cálculo numérico.
+	\end{itemize}
+	
+	\subsection{Relación Tarea-Benchmark}
+	A continuación, se presenta la tabla de dos entradas que vincula las tareas diarias con el benchmark que mejor representa su carga de trabajo:
+	
+	\begin{table}[H]
+		\centering
+		\caption{Mapeo de Tareas Diarias a Benchmarks Específicos}
+		\begin{tabular}{@{}ll@{}}
+			\toprule
+			\textbf{Tarea Diaria} & \textbf{Benchmark Representativo} \\ \midrule
+			Compilación de código (C++/PlatformIO) & Timed Linux Kernel Compilation \\
+			Simulación de Circuitos (SPICE) & SPECrate (Floating Point) \\
+			Renderizado / Procesamiento de Imágenes & Cinebench R23 \\
+			Uso general y navegación & PCMark 10 \\ \bottomrule
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Análisis de Rendimiento: Compilación de Kernel Linux}
+	Basado en los datos de \textit{OpenBenchmarking.org}, comparamos el tiempo de compilación del Kernel (menor es mejor):
+	
+	\begin{itemize}
+		\item \textbf{Intel Core i5-13600K:} [Insertar valor aquí] segundos.
+		\item \textbf{AMD Ryzen 9 5900X:} [Insertar valor aquí] segundos.
+	\end{itemize}
+	
+	% Para la aceleración usá la fórmula: Speedup = T_referencia / T_nuevo
+	\subsection{Cálculo de Aceleración (Speedup)}
+	Utilizando el AMD Ryzen 9 7950X como base, la aceleración obtenida es:
+	\begin{equation}
+		S = \frac{T_{base}}{T_{7950X}} = \dots
+	\end{equation}
+	
+	\section{Parte 2: Time Profiling}
+	% Acá van tus capturas de pantalla
+	\subsection{Realización del Tutorial}
+	\begin{figure}[H]
+		\centering
+		% \includegraphics[width=0.8\textwidth]{captura_profiling.png}
+		\caption{Captura de pantalla de la herramienta de profiling en ejecución.}
+	\end{figure}
+	
+	\subsection{Conclusiones sobre el uso del tiempo}
+	[Escribir aquí el análisis de qué funciones consumen más CPU].
+	
+	\section{Resultados Individuales}
+	% Recordá que esto debe ir sincronizado pero con tus datos propios
+	Mis mediciones individuales son: \dots
+	
+\end{document}
