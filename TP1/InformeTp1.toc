@@ -1,12 +1,11 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Introducción}{2}{}%
-\contentsline {section}{\numberline {2}Introducción}{2}{}%
-\contentsline {section}{\numberline {3}Parte 1: Benchmarks y Selección de Hardware}{2}{}%
-\contentsline {subsection}{\numberline {3.1}Lista de Benchmarks Útiles}{2}{}%
-\contentsline {subsection}{\numberline {3.2}Relación Tarea-Benchmark}{2}{}%
-\contentsline {subsection}{\numberline {3.3}Análisis de Rendimiento: Compilación de Kernel Linux}{2}{}%
-\contentsline {subsection}{\numberline {3.4}Cálculo de Aceleración (Speedup)}{2}{}%
-\contentsline {section}{\numberline {4}Parte 2: Time Profiling}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Realización del Tutorial}{3}{}%
-\contentsline {subsection}{\numberline {4.2}Conclusiones sobre el uso del tiempo}{3}{}%
-\contentsline {section}{\numberline {5}Resultados Individuales}{3}{}%
+\contentsline {section}{\numberline {2}Parte 1: Benchmarks y Selección de Hardware}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Lista de Benchmarks Útiles}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Relación Tarea-Benchmark}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Análisis de Rendimiento: Compilación de Kernel Linux}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Cálculo de Aceleración (Speedup)}{2}{}%
+\contentsline {section}{\numberline {3}Parte 2: Time Profiling}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Realización del Tutorial}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Conclusiones sobre el uso del tiempo}{3}{}%
+\contentsline {section}{\numberline {4}Resultados}{3}{}%
